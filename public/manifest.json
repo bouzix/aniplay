@@ -1,8 +1,8 @@
 {
-    "id":"1",
-    "name": "Aniplay",
-    "short_name": "Aniplay",
-    "description": "Watch Anime Online for free without ads on Aniplay",
+    "id": "1",
+    "name": "1001anime",
+    "short_name": "1001anime",
+    "description": "Watch Anime Online for free on 1001anime",
     "icons": [
         {
             "src": "/icon-192x192.png",

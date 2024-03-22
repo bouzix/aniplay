@@ -11,7 +11,7 @@ function page() {
       <div className="mx-auto w-[94%] lg:w-[80%]">
         <h1 className="text-3xl font-bold mt-4 md:mt-8">DMCA - Disclaimer</h1>
         <p className="mt-4 text-[#bdbdbd]">
-          Aniplaynow.live is committed to respecting the intellectual property
+          1001anime.com is committed to respecting the intellectual property
           rights of others and complying with the Digital Millennium Copyright
           Act (DMCA). We take copyright infringement seriously and will respond
           to notices of alleged copyright infringement that comply with the DMCA
@@ -50,21 +50,21 @@ function page() {
               </li>
               <li>
                 The following statement:{" "}
-                  "I have a good faith belief that the use of the copyrighted
-                  material I am complaining of is not authorized by the
-                  copyright owner, its agent, or the law (e.g., as a fair use)";
+                "I have a good faith belief that the use of the copyrighted
+                material I am complaining of is not authorized by the
+                copyright owner, its agent, or the law (e.g., as a fair use)";
               </li>
               <li>
                 The following statement:{" "}
-                  "The information in this notice is accurate and, under penalty
-                  of perjury, I am the owner, or authorized to act on behalf of
-                  the owner, of the copyright or of an exclusive right that is
-                  allegedly infringed";
+                "The information in this notice is accurate and, under penalty
+                of perjury, I am the owner, or authorized to act on behalf of
+                the owner, of the copyright or of an exclusive right that is
+                allegedly infringed";
               </li>
               <li>
                 The following statement:{" "}
-                  "I understand that I am subject to legal action upon
-                  submitting a DMCA request without solid proof.";
+                "I understand that I am subject to legal action upon
+                submitting a DMCA request without solid proof.";
               </li>
               <li>
                 An electronic or physical signature of the owner of the
@@ -76,7 +76,7 @@ function page() {
 
         <h2 className="text-2xl font-bold mt-8">NOTE:</h2>
         <p className="mt-4 text-[#bdbdbd]">
-          None of the files listed on aniplaynow.live are hosted on our servers. All
+          None of the files listed on 1001anime.com are hosted on our servers. All
           links point to content hosted on third-party websites. gojo.live does
           not accept responsibility for content hosted on third-party websites
           and has no involvement in the downloading/uploading of movies. We only
@@ -84,8 +84,8 @@ function page() {
           content on our website infringes upon your intellectual property
           rights and you hold the copyright for that content, please report it
           to{" "}
-          <Link href="mailto:contact@aniplaynow.live" className="text-white">
-            contact@aniplaynow.live
+          <Link href="mailto:contact@1001anime.com" className="text-white">
+            contact@1001anime.com
           </Link>{" "}
           and the content will be immediately removed.
         </p>

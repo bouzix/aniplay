@@ -4,36 +4,36 @@ export default async function sitemap() {
   const data2 = await Top100Anilist();
   const data3 = await SeasonalAnilist();
 
-  const trending = data.map((anime)=>{
+  const trending = data.map((anime) => {
     return {
-      url: `https://aniplaynow.live/anime/info/${anime.id}`,
+      url: `https://1001anime.com/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
-  const top100 = data2.map((anime)=>{
+  const top100 = data2.map((anime) => {
     return {
-      url: `https://aniplaynow.live/anime/info/${anime.id}`,
+      url: `https://1001anime.com/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
-  const seasonal = data3.map((anime)=>{
+  const seasonal = data3.map((anime) => {
     return {
-      url: `https://aniplaynow.live/anime/info/${anime.id}`,
+      url: `https://1001anime.com/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
-    return [
-      {
-        url: 'https://aniplaynow.live',
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 1,
-      },
-      ...trending,
-      ...top100,
-      ...seasonal
-    ]
-  }
+  return [
+    {
+      url: 'https://1001anime.com',
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 1,
+    },
+    ...trending,
+    ...top100,
+    ...seasonal
+  ]
+}

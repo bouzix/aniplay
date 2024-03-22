@@ -13,7 +13,7 @@ async function getInfo(id) {
   try {
     let cachedData;
     if (redis) {
-      cachedData = await redis.get(`info:${id}`); 
+      cachedData = await redis.get(`info:${id}`);
       if (!JSON.parse(cachedData)) {
         await redis.del(`info:${id}`);
         cachedData = null;
@@ -32,7 +32,7 @@ async function getInfo(id) {
     }
   } catch (error) {
     console.error("Error fetching info: ", error);
-  } 
+  }
 }
 
 export async function generateMetadata({ params }) {
@@ -65,7 +65,7 @@ async function AnimeDetails({ params }) {
   return (
     <div className="">
       <Navbarcomponent />
-     <DetailsContainer data={data} id={id} session={session}/>
+      <DetailsContainer data={data} id={id} session={session} />
     </div>
   )
 }

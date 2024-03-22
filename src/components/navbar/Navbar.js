@@ -109,7 +109,7 @@ function Navbarcomponent({ home = false }) {
             <div className={styles.navleft}>
                 <div className={styles.logoContainer}>
                     <Link href="/" className={styles.logoLink}>
-                        ANIPLAY
+                        1001ANIME
                     </Link>
                 </div>
                 <div className={styles.navItemsContainer}>
@@ -122,7 +122,7 @@ function Navbarcomponent({ home = false }) {
                 <button
                     type="button"
                     title="Search"
-                    onClick={() => useSearchbar.setState({ Isopen: true }) } 
+                    onClick={() => useSearchbar.setState({ Isopen: true })}
                     className="w-[26px] h-[26px] outline-none"
                 >
                     <svg
@@ -297,9 +297,9 @@ function Navbarcomponent({ home = false }) {
                                 <p className="font-semibold">{data?.user?.name}</p>
                             </DropdownItem>
                             <DropdownItem key="profile" startContent={<ProfileIcon className={iconClasses} />}>
-                            <Link href={`/user/profile`} className='w-full h-full block '>Profile</Link>
-                                </DropdownItem>
-                            <DropdownItem key="help_and_feedback" onPress={onOpen} startContent={<FeedbackIcon className={iconClasses} />}>Help & Feedback</DropdownItem>
+                                <Link href={`/user/profile`} className='w-full h-full block '>Profile</Link>
+                            </DropdownItem>
+
                             <DropdownItem key="settings" startContent={<SettingsIcon className={iconClasses} />}>
                                 <Link href={`/settings`} className='w-full h-full block '>Settings</Link>
                             </DropdownItem>
@@ -312,7 +312,7 @@ function Navbarcomponent({ home = false }) {
                             <DropdownItem key="notlogprofile" startContent={<LoginIcon className={iconClasses} />}>
                                 <button className="font-semibold outline-none border-none w-full h-full block text-left" onClick={() => signIn('AniListProvider')}>Login With Anilist</button>
                             </DropdownItem>
-                            <DropdownItem key="notloghelp_and_feedback" onPress={onOpen} startContent={<FeedbackIcon className={iconClasses} />}>Help & Feedback</DropdownItem>
+
                             <DropdownItem key="settings" startContent={<SettingsIcon className={iconClasses} />}>
                                 <Link href={`/settings`} className='w-full h-full block '>Settings</Link>
                             </DropdownItem>
